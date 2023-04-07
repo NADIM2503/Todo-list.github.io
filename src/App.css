@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {S
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* project css */
+
+
+
+
+.head{
+  font-family: cursive;
+  color: #393a3b;
+}
+
+.main-div5 {
+  background-color: rgb(118, 113, 222);
+  min-height: 670px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+
+.add-inp {
+  font-size: 1.2rem;
+  height: 49px;
+  width: 330px;
+  border: none;
+  justify-content: left;
+  font-family: cursive;
+
+
+}
+
+
+.add-btn{
+  color: rgb(73, 247, 82);
+
+}
+
+figcaption{
+  font-family: cursive;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+
+.eachItem {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 390px;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+  border-style: double;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 1.2rem;
+
+}
+
+.del-btn {
+  color: red;
+}
+
+.addItems{
+  display: flex;
+  justify-content:space-between;
+  height: 50px;
+  width: 390px;
+  background-color: white;
+  padding-left: 0;
+}
+
+.effect04:hover {
+background-color: red;
+border: none;
+}
+
